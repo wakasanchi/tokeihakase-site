@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Política de privacidad | Prof. Reloj</title>
+<style>
+  :root {
+    --ink: #4a3722;
+    --sub: #8b7355;
+    --line: #e7d9c0;
+    --bg: #f7efe1;
+    --accent: #2b62c4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #f2e7d6;
+      --sub: #bda684;
+      --line: #4a3c2a;
+      --bg: #241c12;
+      --accent: #8fb4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 80px;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.85;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 26px; line-height: 1.4; margin: 0 0 8px; }
+  h2 {
+    font-size: 19px; margin: 40px 0 12px; padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 16px; margin: 26px 0 6px; }
+  p, li { color: var(--ink); }
+  .lead { color: var(--sub); margin: 0 0 28px; font-size: 15px; }
+  .summary {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin: 0 0 32px;
+  }
+  .summary p { margin: 0 0 10px; font-weight: 700; }
+  .summary p:last-child { margin-bottom: 0; }
+  ul { padding-left: 1.3em; margin: 12px 0; }
+  li { margin-bottom: 8px; }
+  a { color: var(--accent); }
+  a:hover { color: var(--ink); }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 15px; }
+  th, td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: rgba(127, 127, 127, 0.08); font-weight: 700; white-space: nowrap; }
+  .wrap { overflow-x: auto; }
+  .mail { font-size: 18px; font-weight: 700; }
+  .lang { margin: 0 0 24px; font-size: 14px; color: var(--sub); line-height: 2.2; }
+  .lang a { margin-right: 4px; }
+  .lang span { margin-right: 4px; font-weight: 700; color: var(--ink); }
+  footer {
+    margin-top: 56px; padding-top: 20px;
+    border-top: 1px solid var(--line); color: var(--sub); font-size: 14px;
+  }
+  footer a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+
+<p class="lang"><a href="privacy.html">日本語</a> / <a href="privacy.en.html">English</a> / <span>Español</span> / <a href="privacy.pt.html">Português</a> / <a href="privacy.tr.html">Türkçe</a> / <a href="privacy.ko.html">한국어</a> / <a href="privacy.zh-Hant.html">繁體中文</a> / <a href="privacy.zh-Hans.html">简体中文</a></p>
+
+<h1>Política de privacidad</h1>
+<p class="lead">Esta política explica cómo la app &laquo;Prof. Reloj&raquo; (la App) trata la información personal y de otro tipo.</p>
+
+<div class="summary">
+  <p>La App no recoge ninguna información que identifique a sus usuarios.</p>
+  <p>Las voces grabadas y el registro de aprendizaje se guardan solo en el dispositivo.</p>
+  <p>La única conexión automática es la comprobación de actualizaciones. Las voces y los registros nunca se envían.</p>
+  <p>El desarrollador no puede recibirlos, verlos ni escucharlos.</p>
+</div>
+
+<h2>1. Información que no recogemos</h2>
+<!--claim:no-collect-->
+<p>La App no hace nada de lo siguiente.</p>
+<ul>
+  <li>Pedir registro de cuenta, inicio de sesión o una dirección de correo</li>
+  <li>Pedir nombre, fecha de nacimiento, curso escolar ni nada que pueda identificar a una persona</li>
+  <li>Enviar fuera del dispositivo las voces grabadas, el registro de aprendizaje ni ningún otro dato creado por el usuario</li>
+  <li>Recoger información para analizar el uso (analítica de acceso, registros de comportamiento)</li>
+  <li>Mostrar publicidad ni usar datos con fines publicitarios</li>
+  <li>Obtener la ubicación, los contactos, el calendario, las fotos, la cámara ni identificadores del dispositivo (incluido el identificador de publicidad)</li>
+</ul>
+<!--claim:no-ads-->
+<p>El desarrollador no tiene ningún servidor para la App, y la App no implementa ningún mecanismo para enviar datos creados por el usuario. Tampoco incorpora componentes de terceros de analítica ni de publicidad.</p>
+<!--claim:update-only-->
+<p><strong>La única conexión automática que hace la App es la comprobación de actualizaciones.</strong> Al abrirse, comprueba si el desarrollador ha publicado contenido más reciente. Lo que se envía se limita a la información necesaria para decidir si hace falta actualizar, como la versión de la app y el tipo de dispositivo. <strong>Las voces grabadas y el registro de aprendizaje nunca se envían en esa conexión.</strong> La entrega de actualizaciones utiliza Expo Application Services. Fuera de esto, solo hay conexiones en los casos del apartado 3.</p>
+
+<h2>2. Información guardada en el dispositivo</h2>
+<!--claim:on-device-->
+<p>La App guarda lo siguiente únicamente dentro del dispositivo del usuario.</p>
+<div class="wrap">
+<table>
+  <tr><th>Qué se guarda</th><th>Detalle</th></tr>
+  <tr><td>La voz de casa</td><td>Audio grabado para la lectura en voz alta (las palabras de la hora y frases breves de ánimo)</td></tr>
+  <tr><td>Registro de aprendizaje</td><td>Cuándo, en qué curso, cuántas preguntas se respondieron, si se acertó a la primera y qué horas se preguntaron</td></tr>
+  <tr><td>Estampas</td><td>Cuántas estampas se han conseguido hasta ahora</td></tr>
+  <tr><td>Ajustes</td><td>Idioma, preguntas por ronda, sonido y lectura activados o no, los pasos usados en las salas</td></tr>
+  <tr><td>Estado de la compra</td><td>Si la compra única se ha realizado</td></tr>
+</table>
+</div>
+<p>Todo esto se guarda en el área propia de la App dentro del dispositivo. <strong>La App no usa nunca las fotos ni la cámara.</strong> No escribe ni lee la fototeca del dispositivo.</p>
+<p>El registro de aprendizaje se usa para dibujar las figuras de la pantalla que mira el adulto. <strong>No hay puntuaciones, ni clasificaciones, ni comparación con otros niños.</strong></p>
+
+<h2>3. Cuándo sale información del dispositivo</h2>
+<p><strong>La App nunca envía automáticamente las voces grabadas ni el registro de aprendizaje.</strong> Solo salen del dispositivo <strong>cuando un adulto lo decide de forma explícita</strong>. En todos los casos, quien elige el destino es la persona que usa el dispositivo, y el desarrollador no recibe el contenido.</p>
+<ul>
+  <li><strong>Exportar una copia</strong>: la App crea un archivo (ZIP) con la voz de casa, el registro de aprendizaje, las estampas y los ajustes, y lo entrega a la función de compartir del dispositivo. Dónde se guarda (almacenamiento en la nube, una app de archivos, etc.) lo elige quien lo usa. <strong>La información de la compra no se incluye en ese archivo.</strong></li>
+  <li><strong>Enlaces a sitios externos</strong>: desde las pantallas para adultos, la App puede abrir los sitios de los materiales de sonido que utiliza. Lo que ocurra allí se rige por las normas de cada sitio.</li>
+  <li><strong>Comprobación de actualizaciones</strong>: es la única conexión que ocurre de forma automática, sin ninguna acción. Al abrirse, la App comprueba si el desarrollador ha publicado contenido más reciente. <strong>Lo que se envía se limita a cosas como la versión de la app y el tipo de dispositivo; las voces y el registro no se envían.</strong> Este mecanismo lo proporciona Expo Application Services.</li>
+</ul>
+<p>Los datos también pueden quedar incluidos en las copias de seguridad del sistema operativo (como la copia de iCloud). Eso es una función del sistema operativo, y el desarrollador no puede ver su contenido.</p>
+
+<h2>4. Uso de funciones del dispositivo</h2>
+<div class="wrap">
+<table>
+  <tr><th>Función</th><th>Para qué se usa</th></tr>
+  <tr><td>Micrófono</td><td>Para grabar la voz de casa. <strong>La grabación ocurre solo mientras se mantiene &laquo;grabar&raquo; en la pantalla para adultos.</strong></td></tr>
+  <tr><td>Síntesis de voz</td><td>Para leer preguntas y respuestas en voz alta, con la función de lectura integrada del dispositivo</td></tr>
+  <tr><td>Compartir archivos</td><td>Para exportar el archivo de copia</td></tr>
+</table>
+</div>
+<p>Ninguna de estas funciones se usa sin permiso del usuario. Los permisos se pueden cambiar en cualquier momento desde los ajustes del dispositivo.</p>
+<p><strong>La App no realiza reconocimiento de voz.</strong> El audio grabado nunca se convierte en texto ni se envía a un servicio externo de reconocimiento. Se usa tal cual, solo para la lectura en voz alta.</p>
+
+<h2>5. La privacidad de los niños</h2>
+<!--claim:kids-gate-->
+<p>La App está pensada sobre todo para niños que se preparan para la escuela. Por eso, sus principios de diseño son los siguientes.</p>
+<ul>
+  <li>No se recoge información personal del niño. No hay ninguna pantalla para escribir la edad ni datos de contacto.</li>
+  <li>No se incorpora publicidad ni componentes de analítica de terceros.</li>
+  <li>Los enlaces que salen de la App y el proceso de compra están solo al fondo de las pantallas para adultos, detrás de una comprobación para adultos (una multiplicación).</li>
+  <li>La App no tiene mensajería, publicaciones ni forma de compartir entre usuarios.</li>
+  <li>Las pantallas que ve un niño no contienen precios, ni botones de compra, ni enlaces a sitios externos.</li>
+</ul>
+
+<h2>6. Sobre las compras</h2>
+<p>La App ofrece una compra única que añade cursos y funciones. La compra la gestiona App Store; el desarrollador nunca recibe datos de pago como el número de tarjeta. La información que indica si se ha comprado se guarda en el dispositivo y no se envía a ningún sitio.</p>
+<p>Esa información no se incluye en el archivo de copia. Al cambiar de dispositivo, use &laquo;Restaurar compra&raquo;.</p>
+
+<h2>7. Borrar los datos</h2>
+<p>Los datos guardados se pueden borrar así.</p>
+<ul>
+  <li>Borrar las voces grabadas una a una, desde la pantalla para adultos</li>
+  <li>Borrar la App del dispositivo (los datos guardados dentro se borran con ella)</li>
+</ul>
+<p>Como el desarrollador no guarda ninguna copia de los datos, no existe un procedimiento para atender solicitudes de borrado.</p>
+
+<h2>8. Cambios en esta política</h2>
+<p>Esta política puede cambiar si cambian las leyes o se añaden funciones. Cuando se haga un cambio importante, la fecha del cambio se indicará en esta página.</p>
+
+<h2>9. Contacto</h2>
+<p>Para preguntas sobre esta política o sobre la App, escriba a la siguiente dirección. <strong>Las respuestas se escriben en inglés o japonés.</strong></p>
+<p><a href="mailto:wakasanchi2020@gmail.com">wakasanchi2020@gmail.com</a></p>
+
+<footer>
+  <p>Última actualización: 6 September 2026</p>
+</footer>
+
+</main>
+</body>
+</html>

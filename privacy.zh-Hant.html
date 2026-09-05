@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>隱私權政策｜時鐘博士</title>
+<style>
+  :root {
+    --ink: #4a3722;
+    --sub: #8b7355;
+    --line: #e7d9c0;
+    --bg: #f7efe1;
+    --accent: #2b62c4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #f2e7d6;
+      --sub: #bda684;
+      --line: #4a3c2a;
+      --bg: #241c12;
+      --accent: #8fb4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 80px;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.85;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 26px; line-height: 1.4; margin: 0 0 8px; }
+  h2 {
+    font-size: 19px; margin: 40px 0 12px; padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 16px; margin: 26px 0 6px; }
+  p, li { color: var(--ink); }
+  .lead { color: var(--sub); margin: 0 0 28px; font-size: 15px; }
+  .summary {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin: 0 0 32px;
+  }
+  .summary p { margin: 0 0 10px; font-weight: 700; }
+  .summary p:last-child { margin-bottom: 0; }
+  ul { padding-left: 1.3em; margin: 12px 0; }
+  li { margin-bottom: 8px; }
+  a { color: var(--accent); }
+  a:hover { color: var(--ink); }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 15px; }
+  th, td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: rgba(127, 127, 127, 0.08); font-weight: 700; white-space: nowrap; }
+  .wrap { overflow-x: auto; }
+  .mail { font-size: 18px; font-weight: 700; }
+  .lang { margin: 0 0 24px; font-size: 14px; color: var(--sub); line-height: 2.2; }
+  .lang a { margin-right: 4px; }
+  .lang span { margin-right: 4px; font-weight: 700; color: var(--ink); }
+  footer {
+    margin-top: 56px; padding-top: 20px;
+    border-top: 1px solid var(--line); color: var(--sub); font-size: 14px;
+  }
+  footer a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+
+<p class="lang"><a href="privacy.html">日本語</a> / <a href="privacy.en.html">English</a> / <a href="privacy.es.html">Español</a> / <a href="privacy.pt.html">Português</a> / <a href="privacy.tr.html">Türkçe</a> / <a href="privacy.ko.html">한국어</a> / <span>繁體中文</span> / <a href="privacy.zh-Hans.html">简体中文</a></p>
+
+<h1>隱私權政策</h1>
+<p class="lead">本政策說明App「時鐘博士」（以下稱本App）如何處理個人資料等資訊。</p>
+
+<div class="summary">
+  <p>本App不會蒐集任何可以指認使用者的資訊。</p>
+  <p>錄下的聲音與學習記錄，全部只存在裝置裡。</p>
+  <p>自動進行的連線只有確認App更新這一項。聲音與記錄不會被傳送。</p>
+  <p>開發者無法收到、看到，也無法聽到這些內容。</p>
+</div>
+
+<h2>1. 不會蒐集的資訊</h2>
+<!--claim:no-collect-->
+<p>本App不會做以下任何一件事。</p>
+<ul>
+  <li>要求註冊帳號、登入或輸入電子郵件</li>
+  <li>要求輸入姓名、生日、年級等可以指認使用者的資訊</li>
+  <li>把錄下的聲音、學習記錄，或其他由使用者建立的資料傳到裝置外</li>
+  <li>為了分析使用情形（流量分析、行為記錄）而蒐集資訊</li>
+  <li>顯示廣告，或把資料用於廣告目的</li>
+  <li>取得位置、通訊錄、行事曆、照片、相機，或裝置的識別碼（包含廣告識別碼）</li>
+</ul>
+<!--claim:no-ads-->
+<p>本App沒有開發者的伺服器，也沒有實作把使用者資料傳出去的機制。同樣沒有嵌入任何第三方的分析或廣告元件。</p>
+<!--claim:update-only-->
+<p><strong>本App自動進行的連線，只有確認App更新這一項。</strong>開啟時會確認開發者有沒有發布較新的內容。此時傳送的內容，僅限於判斷是否需要更新所需的資訊，例如App的版本與裝置的種類。<strong>錄下的聲音與學習記錄，絕不會透過這個連線被傳送。</strong>更新的發布使用 Expo Application Services 的機制。除此之外，只有第3節所列的情形才會發生連線。</p>
+
+<h2>2. 存在裝置裡的資訊</h2>
+<!--claim:on-device-->
+<p>本App只會把下列資訊存在使用者的裝置裡。</p>
+<div class="wrap">
+<table>
+  <tr><th>存下的東西</th><th>內容</th></tr>
+  <tr><td>家人的聲音</td><td>為了唸出來而錄下的聲音（時刻的詞，以及幾句鼓勵的話）</td></tr>
+  <tr><td>學習記錄</td><td>什麼時候、在哪個練習、答了幾題、有沒有一次就答對、出過哪些時刻</td></tr>
+  <tr><td>貼紙</td><td>到目前為止收集到的貼紙數量</td></tr>
+  <tr><td>設定</td><td>語言、每一輪的題數、聲音與唸出來的開關、房間裡使用的間隔</td></tr>
+  <tr><td>購買的資訊</td><td>是否已完成一次性的購買</td></tr>
+</table>
+</div>
+<p>這些會存在裝置內App專用的區域。<strong>本App完全不使用照片與相機。</strong>不會寫入裝置的照片App，也不會讀取。</p>
+<p>學習記錄是為了在大人看的畫面上畫成圖而使用。<strong>不會有分數、排名，也不會和其他孩子比較。</strong></p>
+
+<h2>3. 資訊離開裝置的情形</h2>
+<p><strong>本App不會自動傳送錄下的聲音或學習記錄。</strong>這些離開裝置，<strong>只發生在家長明確操作的時候</strong>。無論哪一種情形，選擇傳送目的地的都是操作的人，開發者不會收到內容。</p>
+<ul>
+  <li><strong>匯出備份</strong>：本App會把家人的聲音、學習記錄、貼紙與設定做成一個檔案（ZIP），交給裝置的分享功能。要存到哪裡（雲端空間、檔案App等）由操作的人決定。<strong>購買的資訊沒有放進這個檔案。</strong></li>
+  <li><strong>連往外部網站</strong>：在家長使用的畫面上，本App可能會開啟所使用音效素材的來源網站。開啟之後的處理，依各網站自己的規定。</li>
+  <li><strong>確認App更新</strong>：這是唯一不需要操作、自動進行的連線。開啟時會確認開發者有沒有發布較新的內容。<strong>傳送的內容僅限於App的版本與裝置的種類等，聲音與學習記錄不會被傳送。</strong>這個機制由 Expo Application Services 提供。</li>
+</ul>
+<p>此外，資料也可能被裝置作業系統提供的備份功能（例如iCloud備份）涵蓋。這是作業系統的機制，開發者無法查看其內容。</p>
+
+<h2>4. 裝置功能的使用</h2>
+<div class="wrap">
+<table>
+  <tr><th>功能</th><th>使用的目的</th></tr>
+  <tr><td>麥克風</td><td>為了錄下家人的聲音。<strong>錄音只會在家長畫面上按住「錄音」的期間進行。</strong></td></tr>
+  <tr><td>語音朗讀</td><td>為了唸出題目與答案。使用裝置內建的朗讀功能</td></tr>
+  <tr><td>檔案分享</td><td>為了匯出備份的檔案</td></tr>
+</table>
+</div>
+<p>上述功能在使用者未允許之前都不會被使用。允許與否可以隨時在裝置的設定中變更。</p>
+<p><strong>本App不進行語音辨識。</strong>不會把錄下的聲音轉成文字，也不會送到外部的語音辨識服務。錄下的聲音就這樣直接用於唸出來而已。</p>
+
+<h2>5. 兒童的隱私</h2>
+<!--claim:kids-gate-->
+<p>本App主要以準備入學的孩子為對象。因此，我們把以下幾點當成設計上的原則。</p>
+<ul>
+  <li>不從孩子本人蒐集個人資料。沒有輸入年齡或聯絡方式的畫面。</li>
+  <li>不嵌入廣告與第三方的分析元件。</li>
+  <li>離開App的連結與購買流程，只放在家長畫面的深處，前面還有給大人的確認（輸入乘法答案）。</li>
+  <li>沒有與其他使用者通訊、發文或分享的功能。</li>
+  <li>孩子看到的畫面上，沒有價格、購買按鈕，也沒有連往外部網站的連結。</li>
+</ul>
+
+<h2>6. 關於購買</h2>
+<p>本App提供一次性的購買，可以增加練習與功能。購買由App Store處理，開發者不會收到信用卡號等付款資訊。表示是否已購買的資訊存在裝置裡，不會傳送到外部。</p>
+<p>這項資訊沒有放進備份的檔案。換裝置時請使用「回復購買」。</p>
+
+<h2>7. 資料的刪除</h2>
+<p>已儲存的資料可以用以下方式刪除。</p>
+<ul>
+  <li>在家長畫面上，一個一個刪除錄下的聲音</li>
+  <li>從裝置刪除本App（App內儲存的資料也會一併刪除）</li>
+</ul>
+<p>由於開發者手上沒有資料的副本，因此沒有受理刪除請求的機制。</p>
+
+<h2>8. 本政策的變更</h2>
+<p>本政策可能因法令變更或功能新增而修改。進行重要變更時，會在本頁記載變更的日期。</p>
+
+<h2>9. 聯絡我們</h2>
+<p>關於本政策與本App的疑問，請寄到下面的信箱。<strong>回覆會以英文或日文書寫。</strong></p>
+<p><a href="mailto:wakasanchi2020@gmail.com">wakasanchi2020@gmail.com</a></p>
+
+<footer>
+  <p>最後更新：6 September 2026</p>
+</footer>
+
+</main>
+</body>
+</html>

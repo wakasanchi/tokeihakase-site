@@ -39,7 +39,7 @@
     border-top: 1px solid var(--line);
   }
   h2:first-of-type { border-top: 0; padding-top: 0; }
-  h3 { font-size: 16px; margin: 24px 0 8px; }
+  h3 { font-size: 16px; margin: 26px 0 6px; }
   p, li { color: var(--ink); }
   .lead { color: var(--sub); margin: 0 0 28px; font-size: 15px; }
   .summary {
@@ -56,17 +56,21 @@
   th, td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
   th { background: rgba(127, 127, 127, 0.08); font-weight: 700; white-space: nowrap; }
   .wrap { overflow-x: auto; }
-  .lang { margin: 0 0 24px; font-size: 14px; color: var(--sub); }
+  .mail { font-size: 18px; font-weight: 700; }
+  .lang { margin: 0 0 24px; font-size: 14px; color: var(--sub); line-height: 2.2; }
+  .lang a { margin-right: 4px; }
+  .lang span { margin-right: 4px; font-weight: 700; color: var(--ink); }
   footer {
     margin-top: 56px; padding-top: 20px;
     border-top: 1px solid var(--line); color: var(--sub); font-size: 14px;
   }
+  footer a { margin-right: 16px; }
 </style>
 </head>
 <body>
 <main>
 
-<p class="lang">日本語 / <a href="privacy.en.html">English</a></p>
+<p class="lang"><span>日本語</span> / <a href="privacy.en.html">English</a> / <a href="privacy.es.html">Español</a> / <a href="privacy.pt.html">Português</a> / <a href="privacy.tr.html">Türkçe</a> / <a href="privacy.ko.html">한국어</a> / <a href="privacy.zh-Hant.html">繁體中文</a> / <a href="privacy.zh-Hans.html">简体中文</a></p>
 
 <h1>プライバシーポリシー</h1>
 <p class="lead">アプリ「とけいはかせ」（以下、本アプリ）における個人情報等の取り扱いについて定めます。</p>
@@ -79,6 +83,7 @@
 </div>
 
 <h2>1. 収集しない情報</h2>
+<!--claim:no-collect-->
 <p>本アプリは、以下のいずれも行いません。</p>
 <ul>
   <li>アカウント登録、ログイン、メールアドレスの入力を求めること</li>
@@ -88,10 +93,13 @@
   <li>広告の表示、および広告目的でのデータ利用</li>
   <li>位置情報、連絡先、カレンダー、写真、カメラ、端末の固有番号（広告識別子を含む）の取得</li>
 </ul>
+<!--claim:no-ads-->
 <p>本アプリは開発者のサーバーを持たず、利用者が作成したデータを送信する仕組みを実装していません。第三者の解析・広告用の外部部品も一切組み込んでいません。</p>
+<!--claim:update-only-->
 <p><strong>本アプリが自動的に行う通信は、アプリの更新の確認だけです。</strong>起動時に、開発者が配信した最新の内容がないかを確認します。このとき送られるのは、アプリの版と端末の種類といった、更新が必要かどうかを判断するための情報に限られます。<strong>録音した声・学習の記録が、この通信で送られることはありません。</strong>更新の配信には Expo 社（Expo Application Services）の仕組みを利用しています。<br />そのほかに通信が発生するのは、第3節に記載する場合に限られます。</p>
 
 <h2>2. 端末の中に保存される情報</h2>
+<!--claim:on-device-->
 <p>本アプリは、次の情報を利用者の端末内にのみ保存します。</p>
 <div class="wrap">
 <table>
@@ -128,6 +136,7 @@
 <p><strong>本アプリは音声認識を行いません。</strong>録音した声を文字にすることはなく、外部の音声認識サービスに送ることもありません。録音した音声は、そのまま読み上げに使われるだけです。</p>
 
 <h2>5. お子さまのプライバシー</h2>
+<!--claim:kids-gate-->
 <p>本アプリは、就学準備期のお子さまを主な対象としています。そのため、以下を設計上の原則としています。</p>
 <ul>
   <li>お子さま本人から個人情報を収集しません。年齢や連絡先を入力する画面を設けていません</li>
@@ -153,11 +162,11 @@
 <p>法令の変更や機能の追加に伴い、本ポリシーを変更することがあります。重要な変更を行う場合は、本ページに変更日を記載します。</p>
 
 <h2>9. お問い合わせ</h2>
-<p>本ポリシーおよび本アプリについてのお問い合わせは、次のメールアドレスへお願いします。</p>
+<p>本ポリシーおよび本アプリについてのお問い合わせは、次のメールアドレスへお願いします。<strong>お返事は日本語または英語で差し上げます。</strong></p>
 <p><a href="mailto:wakasanchi2020@gmail.com">wakasanchi2020@gmail.com</a></p>
 
 <footer>
-  <p>最終更新日：2026年9月5日</p>
+  <p>最終更新日：2026年9月6日</p>
 </footer>
 
 </main>

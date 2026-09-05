@@ -42,6 +42,12 @@
   h3 { font-size: 16px; margin: 26px 0 6px; }
   p, li { color: var(--ink); }
   .lead { color: var(--sub); margin: 0 0 28px; font-size: 15px; }
+  .summary {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin: 0 0 32px;
+  }
+  .summary p { margin: 0 0 10px; font-weight: 700; }
+  .summary p:last-child { margin-bottom: 0; }
   ul { padding-left: 1.3em; margin: 12px 0; }
   li { margin-bottom: 8px; }
   a { color: var(--accent); }
@@ -51,7 +57,9 @@
   th { background: rgba(127, 127, 127, 0.08); font-weight: 700; white-space: nowrap; }
   .wrap { overflow-x: auto; }
   .mail { font-size: 18px; font-weight: 700; }
-  .lang { margin: 0 0 24px; font-size: 14px; color: var(--sub); }
+  .lang { margin: 0 0 24px; font-size: 14px; color: var(--sub); line-height: 2.2; }
+  .lang a { margin-right: 4px; }
+  .lang span { margin-right: 4px; font-weight: 700; color: var(--ink); }
   footer {
     margin-top: 56px; padding-top: 20px;
     border-top: 1px solid var(--line); color: var(--sub); font-size: 14px;
@@ -62,7 +70,7 @@
 <body>
 <main>
 
-<p class="lang"><a href="./">日本語</a> / English</p>
+<p class="lang"><a href="index.html">日本語</a> / <span>English</span> / <a href="index.es.html">Español</a> / <a href="index.pt.html">Português</a> / <a href="index.tr.html">Türkçe</a> / <a href="index.ko.html">한국어</a> / <a href="index.zh-Hant.html">繁體中文</a> / <a href="index.zh-Hans.html">简体中文</a></p>
 
 <h1>Clock Professor &mdash; Support</h1>
 <p class="lead">An app for learning to read an analogue clock by turning the hands with a finger. There is no advertising.</p>
@@ -118,7 +126,7 @@
 </div>
 
 <h2>Contact</h2>
-<p>For questions or bug reports, please write to the address below. What you send is used only to reply to you and to improve the App.</p>
+<p>For questions or bug reports, please write to the address below. What you send is used only to reply to you and to improve the App. <strong>Replies are written in English or Japanese.</strong></p>
 <p class="mail"><a href="mailto:wakasanchi2020@gmail.com">wakasanchi2020@gmail.com</a></p>
 
 <footer>
