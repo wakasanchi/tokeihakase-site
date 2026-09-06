@@ -96,7 +96,7 @@
 <!--claim:no-ads-->
 <p>El desarrollador no tiene ningún servidor para la App, y la App no implementa ningún mecanismo para enviar datos creados por el usuario. Tampoco incorpora componentes de terceros de analítica ni de publicidad.</p>
 <!--claim:update-only-->
-<p><strong>La única conexión automática que hace la App es la comprobación de actualizaciones.</strong> Al abrirse, comprueba si el desarrollador ha publicado contenido más reciente. Lo que se envía se limita a la información necesaria para decidir si hace falta actualizar, como la versión de la app y el tipo de dispositivo. <strong>Las voces grabadas y el registro de aprendizaje nunca se envían en esa conexión.</strong> La entrega de actualizaciones utiliza Expo Application Services. Fuera de esto, solo hay conexiones en los casos del apartado 3.</p>
+<p><strong>La única conexión automática que hace la App es la comprobación de actualizaciones.</strong> Al abrirse, comprueba si el desarrollador ha publicado contenido más reciente. Lo que se envía se limita a <strong>la versión de la app, información básica de la plataforma (el tipo de dispositivo y la versión de su sistema) y un identificador de instalación que genera el cliente de actualizaciones</strong>. Solo se usan para decidir si hace falta actualizar y para entregar el contenido correcto. El desarrollador no tiene forma de consultarlos, y nunca se usan para analítica, publicidad ni seguimiento. <strong>Las voces grabadas y el registro de aprendizaje nunca se envían en esa conexión.</strong> La entrega de actualizaciones utiliza Expo Application Services. Fuera de esto, solo hay conexiones en los casos del apartado 3.</p>
 
 <h2>2. Información guardada en el dispositivo</h2>
 <!--claim:on-device-->
@@ -119,7 +119,7 @@
 <ul>
   <li><strong>Exportar una copia</strong>: la App crea un archivo (ZIP) con la voz de casa, el registro de aprendizaje, las estampas y los ajustes, y lo entrega a la función de compartir del dispositivo. Dónde se guarda (almacenamiento en la nube, una app de archivos, etc.) lo elige quien lo usa. <strong>La información de la compra no se incluye en ese archivo.</strong></li>
   <li><strong>Enlaces a sitios externos</strong>: desde las pantallas para adultos, la App puede abrir los sitios de los materiales de sonido que utiliza. Lo que ocurra allí se rige por las normas de cada sitio.</li>
-  <li><strong>Comprobación de actualizaciones</strong>: es la única conexión que ocurre de forma automática, sin ninguna acción. Al abrirse, la App comprueba si el desarrollador ha publicado contenido más reciente. <strong>Lo que se envía se limita a cosas como la versión de la app y el tipo de dispositivo; las voces y el registro no se envían.</strong> Este mecanismo lo proporciona Expo Application Services.</li>
+  <li><strong>Comprobación de actualizaciones</strong>: es la única conexión que ocurre de forma automática, sin ninguna acción. Al abrirse, la App comprueba si el desarrollador ha publicado contenido más reciente. <strong>Lo que se envía se limita a la versión de la app, el tipo de dispositivo y la versión de su sistema, y un identificador de instalación; las voces y el registro no se envían.</strong> Este mecanismo lo proporciona Expo Application Services.</li>
 </ul>
 <p>Los datos también pueden quedar incluidos en las copias de seguridad del sistema operativo (como la copia de iCloud). Eso es una función del sistema operativo, y el desarrollador no puede ver su contenido.</p>
 

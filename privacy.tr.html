@@ -96,7 +96,7 @@
 <!--claim:no-ads-->
 <p>Geliştiricinin Uygulama için bir sunucusu yoktur ve Uygulama, kullanıcının oluşturduğu verileri gönderecek hiçbir mekanizma içermez. Üçüncü tarafların analiz veya reklam bileşenleri de gömülü değildir.</p>
 <!--claim:update-only-->
-<p><strong>Uygulamanın yaptığı tek otomatik bağlantı, güncelleme kontrolüdür.</strong> Açılışta, geliştiricinin daha yeni bir içerik yayınlayıp yayınlamadığına bakar. Gönderilen şey, güncellemenin gerekip gerekmediğine karar vermek için lazım olan bilgiyle sınırlıdır: uygulamanın sürümü ve cihazın türü gibi. <strong>Kaydedilen sesler ve öğrenme kayıtları bu bağlantıda asla gönderilmez.</strong> Güncelleme dağıtımı Expo Application Services ile yapılır. Bunun dışında bağlantı yalnızca 3. bölümdeki durumlarda oluşur.</p>
+<p><strong>Uygulamanın yaptığı tek otomatik bağlantı, güncelleme kontrolüdür.</strong> Açılışta, geliştiricinin daha yeni bir içerik yayınlayıp yayınlamadığına bakar. Gönderilen şey şunlarla sınırlıdır: <strong>uygulamanın sürümü, temel platform bilgisi (cihazın türü ve işletim sistemi sürümü) ve güncelleme istemcisinin ürettiği bir kurulum tanımlayıcısı</strong>. Bunlar yalnızca güncellemenin gerekip gerekmediğine karar vermek ve doğru içeriği ulaştırmak için kullanılır. Geliştiricinin bunları görüntüleme imkânı yoktur; analiz, reklam veya takip için asla kullanılmaz. <strong>Kaydedilen sesler ve öğrenme kayıtları bu bağlantıda asla gönderilmez.</strong> Güncelleme dağıtımı Expo Application Services ile yapılır. Bunun dışında bağlantı yalnızca 3. bölümdeki durumlarda oluşur.</p>
 
 <h2>2. Cihazda saklanan bilgiler</h2>
 <!--claim:on-device-->
@@ -119,7 +119,7 @@
 <ul>
   <li><strong>Yedek dışa aktarma</strong>: Uygulama; aile sesini, öğrenme kayıtlarını, çıkartmaları ve ayarları içeren bir dosya (ZIP) oluşturur ve cihazın paylaşım ekranına verir. Nereye kaydedileceğini (bulut depolama, bir dosya uygulaması vb.) cihazı kullanan kişi seçer. <strong>Satın alma durumu bu dosyaya konmaz.</strong></li>
   <li><strong>Dış sitelere bağlantılar</strong>: Yetişkinler için olan ekranlardan, Uygulama kullandığı ses malzemelerinin sitelerini açabilir. Orada olanlar o sitelerin kendi kurallarına tabidir.</li>
-  <li><strong>Güncelleme kontrolü</strong>: Hiçbir işlem gerekmeden kendiliğinden gerçekleşen tek bağlantı budur. Açılışta Uygulama, geliştiricinin daha yeni bir içerik yayınlayıp yayınlamadığına bakar. <strong>Gönderilen şey uygulamanın sürümü ve cihazın türü gibi bilgilerle sınırlıdır; sesler ve kayıtlar gönderilmez.</strong> Bu mekanizmayı Expo Application Services sağlar.</li>
+  <li><strong>Güncelleme kontrolü</strong>: Hiçbir işlem gerekmeden kendiliğinden gerçekleşen tek bağlantı budur. Açılışta Uygulama, geliştiricinin daha yeni bir içerik yayınlayıp yayınlamadığına bakar. <strong>Gönderilen şey uygulamanın sürümü, cihazın türü ve işletim sistemi sürümü ile bir kurulum tanımlayıcısıyla sınırlıdır; sesler ve kayıtlar gönderilmez.</strong> Bu mekanizmayı Expo Application Services sağlar.</li>
 </ul>
 <p>Veriler, cihazın işletim sisteminin sunduğu yedekleme özelliklerine (iCloud yedeği gibi) de dahil olabilir. Bu, işletim sisteminin bir işlevidir ve geliştirici içeriğini göremez.</p>
 

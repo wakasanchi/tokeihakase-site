@@ -96,7 +96,7 @@
 <!--claim:no-ads-->
 <p>O desenvolvedor não mantém servidor para o App, e o App não implementa nenhum mecanismo para enviar dados criados pelo usuário. Também não embute componentes de terceiros de analytics ou de publicidade.</p>
 <!--claim:update-only-->
-<p><strong>A única conexão automática que o App faz é a verificação de atualizações.</strong> Ao abrir, ele verifica se o desenvolvedor publicou conteúdo mais novo. O que é enviado se limita à informação necessária para decidir se a atualização é preciso, como a versão do app e o tipo de aparelho. <strong>As vozes gravadas e o registro de aprendizagem nunca são enviados nessa conexão.</strong> A entrega de atualizações usa o Expo Application Services. Fora disso, só há conexões nos casos do item 3.</p>
+<p><strong>A única conexão automática que o App faz é a verificação de atualizações.</strong> Ao abrir, ele verifica se o desenvolvedor publicou conteúdo mais novo. O que é enviado se limita a <strong>a versão do app, informações básicas da plataforma (o tipo de aparelho e a versão do sistema) e um identificador de instalação gerado pelo cliente de atualizações</strong>. Isso é usado apenas para decidir se a atualização é necessária e para entregar o conteúdo certo. O desenvolvedor não tem como consultar esses dados, e eles nunca são usados para analytics, publicidade ou rastreamento. <strong>As vozes gravadas e o registro de aprendizagem nunca são enviados nessa conexão.</strong> A entrega de atualizações usa o Expo Application Services. Fora disso, só há conexões nos casos do item 3.</p>
 
 <h2>2. Informações guardadas no aparelho</h2>
 <!--claim:on-device-->
@@ -119,7 +119,7 @@
 <ul>
   <li><strong>Exportar um backup</strong>: o App cria um arquivo (ZIP) com a voz da família, o registro de aprendizagem, as figurinhas e os ajustes, e o entrega à função de compartilhar do aparelho. Onde ele é salvo (armazenamento na nuvem, um app de arquivos, e assim por diante) é escolhido por quem está usando. <strong>O estado da compra não vai nesse arquivo.</strong></li>
   <li><strong>Links para sites externos</strong>: nas telas para adultos, o App pode abrir os sites dos materiais de som que utiliza. O que acontece lá é regido pelas regras de cada site.</li>
-  <li><strong>Verificação de atualizações</strong>: é a única conexão que acontece automaticamente, sem nenhuma ação. Ao abrir, o App verifica se o desenvolvedor publicou conteúdo mais novo. <strong>O que é enviado se limita a coisas como a versão do app e o tipo de aparelho; vozes e registros não são enviados.</strong> Esse mecanismo é fornecido pelo Expo Application Services.</li>
+  <li><strong>Verificação de atualizações</strong>: é a única conexão que acontece automaticamente, sem nenhuma ação. Ao abrir, o App verifica se o desenvolvedor publicou conteúdo mais novo. <strong>O que é enviado se limita à versão do app, ao tipo de aparelho e à versão do sistema, e a um identificador de instalação; vozes e registros não são enviados.</strong> Esse mecanismo é fornecido pelo Expo Application Services.</li>
 </ul>
 <p>Os dados também podem entrar nos backups oferecidos pelo sistema do aparelho (como o backup do iCloud). Isso é uma função do sistema operacional, e o desenvolvedor não pode ver o conteúdo.</p>
 
